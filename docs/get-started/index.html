@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="https://demo.creativebulma.net/components/badge/1.0/">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <title>Get Started - BulmaBadge</title>
+
+    <link rel="icon" href="https://demo.creativebulma.net/components/badge/1.0/favicon.png">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/components/badge/1.0/css/docs.css" />
+    <link rel="stylesheet" href="/components/badge/1.0/css/bulma-badge.min.css" />
+
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body class=''>
+    
+    <div class="container is-fullheight">
+        
+        <div class="mobile-burger burger is-hidden-desktop" data-target="#doc-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="columns is-gapless is-fullheight">
+            <div id="doc-menu" class="column is-2 menu is-mobile">
+                <a href="https://demo.creativebulma.net/components/badge/1.0/" class="brand">
+    <span class="title is-6 has-text-weight-normal">BulmaBadge</span>
+    <span class="subtitle tag is-primary is-light is-7 has-text-weight-light is-uppercase">docs</span>
+</a>
+<ul class="menu-list">
+    
+    
+    
+        
+            <li class="">
+                <a href="/components/badge/1.0/" class="menu-item">
+                    
+                    <span>Introduction</span>
+                </a>
+            </li>
+        
+    
+        
+            <li class="">
+                <a href="/components/badge/1.0/get-started/" class="menu-item">
+                    
+                    <span>Get Started</span>
+                </a>
+            </li>
+        
+    
+        
+            <li class="menu-item has-dropdown ">
+                <a href="#" class="menu-title">
+                    
+                    <span>How-To</span>
+                    <span class="menu-caret"></span>
+                </a>
+                <ul class="menu-dropdown">
+                    
+                        <li class="">
+                            <a href="/components/badge/1.0/how-to/customize/" class="menu-item">Customize</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="">
+                <a href="/components/badge/1.0/changelog/" class="menu-item">
+                    
+                    <span>Changelog</span>
+                </a>
+            </li>
+        
+    
+</ul>
+            </div>
+            <div class="column is-fullheight">
+                <nav class="navbar" role="navigation" aria-label="navigation" style="background-color: transparent !important;">
+    <div class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end">
+            
+            <a class="navbar-item is-square" href="https://github.com/CreativeBulma/bulma-badge" alt="Github repository" target="_blank">
+                <span class="icon">
+                    <i class="fab fa-lg fa-github"></i>
+                </span>
+            </a>
+            
+            <a class="navbar-item is-square" href="https://twitter.com/CreativeBulma" alt="Follow us on Twitter" target="_blank">
+                <span class="icon">
+                    <i class="fab fa-lg fa-twitter"></i>
+                </span>
+            </a>
+            
+        </div>
+    </div>
+</nav>
+
+                <div class="section is-fullheight" style="padding: 3rem;">
+                    <div class="content is-fullheight">
+                        <h1 id="get-started">Get started</h1>
+<p><strong>You only need 1 CSS file to use BulmaBadge</strong></p>
+<h2 id="installation">Installation</h2>
+<h3 id="first-lets-install-the-component">First, let&rsquo;s install the component!</h3>
+<p>There are several ways to get started with BulmaBadge.</p>
+<div class="tabs">
+    <ul>
+        
+		
+
+		
+		
+		
+
+		
+        <li class="is-active" id="nav-1" data-toggle="tab" data-target="#tab11" role="tab" aria-selected="true">
+            <a>1. NPM</a>
+        </li>
+        
+		
+
+		
+		
+		
+
+		
+        <li id="nav-1" data-toggle="tab" data-target="#tab12" role="tab" aria-selected="false">
+            <a>2. CDN</a>
+        </li>
+        
+		
+
+		
+		
+		
+
+		
+        <li id="nav-1" data-toggle="tab" data-target="#tab13" role="tab" aria-selected="false">
+            <a>3. Github</a>
+        </li>
+        
+		
+    </ul>
+</div>
+<div class="tab-content" id="1">
+
+
+
+
+
+
+<div class="tab-pane is-active" id="tab11" role="tabpanel" aria-labelledby="nav-tabName1">
+	<p>Use npm to install the <code>bulma-badge</code> package <strong>recommended</strong></p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">npm install @creativebulma/bulma-badge
+</code></pre></div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="tab-pane" id="tab12" role="tabpanel" aria-labelledby="nav-tabName2">
+	<p>Use the <a href="https://jsdelivr.com">jsDelivr</a> CDN to link to the BulmaBadge stylesheet</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">https://www.jsdelivr.com/package/npm/@creativebulma/bulma-badge
+</code></pre></div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="tab-pane" id="tab13" role="tabpanel" aria-labelledby="nav-tabName3">
+	<p>Use the GitHub repository to get the latest development version.</p>
+<p>Download from the repository <a href="https://github.com/CreativeBulma/bulma-badge/tree/master/dist/">https://github.com/CreativeBulma/bulma-badge/tree/master/dist/</a></p>
+
+</div>
+
+
+
+</div>
+<h2 id="usage">Usage</h2>
+<p>Badges are displayed into a container on top of the element. All you have to do is to add a container with the <code>badge</code> class and with the text you want to display as value.</p>
+<h3 id="styles">Styles</h3>
+<h4 id="default">Default</h4>
+
+
+
+  
+
+
+
+<div class="preview">
+    <div class="tabs">
+        <ul>
+            <li class="is-active" data-toggle="tab" data-target="#previewdefault" role="tab" aria-selected="true">
+                <a>Preview</a>
+            </li>
+            
+            <li data-toggle="tab" data-target="#previewCodedefault" role="tab" aria-selected="false">
+                <a>Code</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-content" id="preview-default">
+        <div class="tab-pane is-active" id="previewdefault" role="tabpanel" aria-labelledby="preview-default">
+            
+<button class="button">
+    <span title="Badge top right" class="badge">8</span>
+    Button
+</button>
+
+        </div>
+        <div class="tab-pane" id="previewCodedefault" role="tabpanel" aria-labelledby="preview-code-default">
+            <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+    Button
+&lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+</code></pre></div>
+        </div>
+    </div>
+</div>
+<p>The badge is available in outlined style. Simply append the modifier <code>is-outlined</code> to the badge element to apply the outlined version of the badge.
+
+
+
+  
+
+
+
+<div class="preview">
+    <div class="tabs">
+        <ul>
+            <li class="is-active" data-toggle="tab" data-target="#previewoutlined" role="tab" aria-selected="true">
+                <a>Preview</a>
+            </li>
+            
+            <li data-toggle="tab" data-target="#previewCodeoutlined" role="tab" aria-selected="false">
+                <a>Code</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-content" id="preview-outlined">
+        <div class="tab-pane is-active" id="previewoutlined" role="tabpanel" aria-labelledby="preview-outlined">
+            
+<button class="button">
+    <span title="Badge top right" class="badge is-outlined">8</span>
+    Button
+</button>
+
+        </div>
+        <div class="tab-pane" id="previewCodeoutlined" role="tabpanel" aria-labelledby="preview-code-outlined">
+            <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+    Button
+&lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+</code></pre></div>
+        </div>
+    </div>
+</div></p>
+<h4 id="colors">Colors</h4>
+
+
+
+  
+
+
+
+<div class="preview">
+    <div class="tabs">
+        <ul>
+            <li class="is-active" data-toggle="tab" data-target="#previewcolors" role="tab" aria-selected="true">
+                <a>Preview</a>
+            </li>
+            
+            <li data-toggle="tab" data-target="#previewCodecolors" role="tab" aria-selected="false">
+                <a>Code</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-content" id="preview-colors">
+        <div class="tab-pane is-active" id="previewcolors" role="tabpanel" aria-labelledby="preview-colors">
+            
+<div class="columns is-multiline">
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-success">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-warning">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-danger">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-info">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-dark">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-success is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-warning is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-danger is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-info is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-success">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-warning">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-danger">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-info">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-dark">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-success is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-warning is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-danger is-light">8</span>
+            Button
+        </button>
+    </div>
+    <div class="column">
+        <button class="button">
+            <span title="Badge top right" class="badge is-outlined is-info is-light">8</span>
+            Button
+        </button>
+    </div>
+</div>
+
+        </div>
+        <div class="tab-pane" id="previewCodecolors" role="tabpanel" aria-labelledby="preview-code-colors">
+            <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;columns is-multiline&#34;</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-success&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-warning&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-danger&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-info&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-dark&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-success is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-warning is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-danger is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-info is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-success&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-warning&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-danger&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-info&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-dark&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-success is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-warning is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-danger is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-outlined is-info is-light&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            Button
+        &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+&lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+</code></pre></div>
+        </div>
+    </div>
+</div>
+<h3 id="position">Position</h3>
+<p>The badge is available in different positions (by default the badge is displayed top right from the container).</p>
+<p>To change the badge position, use the <code>is-top-left</code>, <code>is-top</code>, <code>is-top-right</code>, <code>is-right</code>, <code>is-bottom-right</code>, <code>is-bottom</code>, <code>is-bottom-left</code> or <code>is-left</code> modifier on the <code>.badge</code> container:
+Tooltip position can be changed by adding one of the following classes to the HTML element containing the tooltip: <code>has-tooltip-right</code>, <code>has-tooltip-bottom</code>, <code>has-tooltip-left</code>.
+
+
+
+  
+
+
+
+<div class="preview">
+    <div class="tabs">
+        <ul>
+            <li class="is-active" data-toggle="tab" data-target="#previewposition" role="tab" aria-selected="true">
+                <a>Preview</a>
+            </li>
+            
+            <li data-toggle="tab" data-target="#previewCodeposition" role="tab" aria-selected="false">
+                <a>Code</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="tab-content" id="preview-position">
+        <div class="tab-pane is-active" id="previewposition" role="tabpanel" aria-labelledby="preview-position">
+            
+<div class="columns is-multiline">
+    <div class="column">
+        <div class="columns is-multiline">
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-top-left">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-top">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-right">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-bottom-right">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-bottom">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-bottom-left">8</span>
+                    Button
+                </button>
+            </div>
+            <div class="column">
+                <button class="button">
+                    <span title="Badge top right" class="badge is-left">8</span>
+                    Button
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="column is-12">
+        <section class="section">
+            <div class="has-background-light" style="height: 150px; position: relative;width: 80%; margin: auto;">
+                <span title="Badge top left" class="badge is-top-left is-danger">Badge top left</span>
+                <span title="Badge top center" class="badge is-top is-success">Badge top center</span>
+                <span title="Badge top right" class="badge is-info">Badge top right</span>
+
+                <span title="Badge right" class="badge is-right is-primary">Badge right</span>
+
+                <span title="Badge bottom right" class="badge is-bottom-right is-primary">Badge bottom
+                    right</span>
+                <span title="Badge bottom center" class="badge is-bottom">Badge bottom center</span>
+                <span title="Badge bottom left" class="badge is-bottom-left is-warning">Badge bottom
+                    left</span>
+
+                <span title="Badge left" class="badge is-left is-primary">Badge left</span>
+            </div>
+        </section>
+    </div>
+</div>
+
+        </div>
+        <div class="tab-pane" id="previewCodeposition" role="tabpanel" aria-labelledby="preview-code-position">
+            <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;columns is-multiline&#34;</span>&gt;
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;columns is-multiline&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-top-left&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-top&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-right&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom-right&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom-left&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">button</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;button&#34;</span>&gt;
+                    &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-left&#34;</span>&gt;8&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                    Button
+                &lt;/<span style="color:#309;font-weight:bold">button</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+        &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+
+    &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;column is-12&#34;</span>&gt;
+        &lt;<span style="color:#309;font-weight:bold">section</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;section&#34;</span>&gt;
+            &lt;<span style="color:#309;font-weight:bold">div</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;has-background-light&#34;</span> <span style="color:#309">style</span><span style="color:#555">=</span><span style="color:#c30">&#34;height: 150px; position: relative;width: 80%; margin: auto;&#34;</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top left&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-top-left is-danger&#34;</span>&gt;Badge top left&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top center&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-top is-success&#34;</span>&gt;Badge top center&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge top right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-info&#34;</span>&gt;Badge top right&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-right is-primary&#34;</span>&gt;Badge right&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge bottom right&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom-right is-primary&#34;</span>&gt;Badge bottom
+                    right&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge bottom center&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom&#34;</span>&gt;Badge bottom center&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge bottom left&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-bottom-left is-warning&#34;</span>&gt;Badge bottom
+                    left&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+
+                &lt;<span style="color:#309;font-weight:bold">span</span> <span style="color:#309">title</span><span style="color:#555">=</span><span style="color:#c30">&#34;Badge left&#34;</span> <span style="color:#309">class</span><span style="color:#555">=</span><span style="color:#c30">&#34;badge is-left is-primary&#34;</span>&gt;Badge left&lt;/<span style="color:#309;font-weight:bold">span</span>&gt;
+            &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+        &lt;/<span style="color:#309;font-weight:bold">section</span>&gt;
+    &lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+&lt;/<span style="color:#309;font-weight:bold">div</span>&gt;
+</code></pre></div>
+        </div>
+    </div>
+</div></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="/components/badge/1.0/js/clipboard.min.js" type="text/javascript"></script>
+    <script async src="/components/badge/1.0/js/docs.js" type="text/javascript"></script>
+    
+</body>
+
+</html>
