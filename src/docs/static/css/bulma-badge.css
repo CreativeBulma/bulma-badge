@@ -1,4 +1,4 @@
-/*! @creativebulma/bulma-badge v1.0.0 | (c) 2020 Gaetan | MIT License | https://github.com/CreativeBulma/bulma-badge */
+/*! @creativebulma/bulma-badge v1.0.1 | (c) 2020 Gaetan | MIT License | https://github.com/CreativeBulma/bulma-badge */
 @-webkit-keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -325,4 +325,9 @@
 /* line 119, src/sass/app.sass */
 .badge.is-danger.is-light.is-outlined {
   border-color: #f14668;
+}
+
+/* line 124, src/sass/app.sass */
+.tabs li {
+  position: relative;
 }
