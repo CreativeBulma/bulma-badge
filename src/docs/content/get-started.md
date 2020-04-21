@@ -198,7 +198,6 @@ The badge is available in outlined style. Simply append the modifier `is-outline
 The badge is available in different positions (by default the badge is displayed top right from the container).
 
 To change the badge position, use the `is-top-left`, `is-top`, `is-top-right`, `is-right`, `is-bottom-right`, `is-bottom`, `is-bottom-left` or `is-left` modifier on the `.badge` container:
-Tooltip position can be changed by adding one of the following classes to the HTML element containing the tooltip: `has-tooltip-right`, `has-tooltip-bottom`, `has-tooltip-left`.
 {{< preview id="position" lang="html" >}}
 <div class="columns is-multiline">
     <div class="column">
