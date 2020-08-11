@@ -1,6 +1,6 @@
 [
     {
-        "name": "$font-size",
+        "name": "$badge-font-size",
         "description": "",
         "value": ".65rem"
     },
