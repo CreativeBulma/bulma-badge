@@ -14,13 +14,13 @@ This component extends [Bulma CSS Framework](https://bulma.io) and requires it t
 ```shell
 npm i -D @creativebulma/bulma-badge
 ```
-Full installation steps can be found here: [installation steps](https://demo.creativebulma.net/components/badge/1.0/get-started)
+Full installation steps can be found here: [installation steps](https://bulma-badge.netlify.app/get-started)
 
 ## Documentation & Demo
-Full documentation and demo are available [here](https://demo.creativebulma.net/components/badge/1.0/get-started)
+Full documentation and demo are available [here](https://bulma-badge.netlify.app/get-started)
 
 ## About the project
-BulmaBadge is © 2020 by [CreativeBulma](https://creativebulma.net).
+BulmaBadge is © 2020 by [CreativeBulma](https://github.com/CreativeBulma).
 
 **If you enjoy this component, have a look at our [MarketPlace](https://creativebulma.net) and discover Free and Premium Bulma components and Templates.**
 
