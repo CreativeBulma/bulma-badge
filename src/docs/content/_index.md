@@ -11,8 +11,6 @@ draft: false
 
 BulmaBadge is a pure CSS {{% link text="Bulma" href="https://bulma.io" target="_blank" %}} extension which brings the ability to **easily display a badge attached to any kind of element, in different position**.
 
-{{% notification primary %}}If you enjoy this component, have a look at our [MarketPlace](https://creativebulma.net) and discover Free and Premium Bulma components and Templates.{{% /notification %}}
-
 ## License
 BulmaBadge is © 2020 by [CreativeBulma](https://creativebulma.net).
 
