@@ -22,8 +22,6 @@ Full documentation and demo are available [here](https://bulma-badge.netlify.app
 ## About the project
 BulmaBadge is © 2020 by [CreativeBulma](https://github.com/CreativeBulma).
 
-**If you enjoy this component, have a look at our [MarketPlace](https://creativebulma.net) and discover Free and Premium Bulma components and Templates.**
-
 ## License
 BulmaBadge is distributed under [MIT](https://github.com/CreativeBulma/bulma-badge/blob/master/LICENSE) license.
 
