@@ -1,4 +1,4 @@
-baseURL = "https://demo.creativebulma.net/components/badge/1.0/"
+baseURL = "https://bulma-badge.netlify.app/"
 languageCode = "en-us"
 title = "BulmaBadge"
 theme = "creativebulma"
