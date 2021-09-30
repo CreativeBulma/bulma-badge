@@ -39,7 +39,7 @@ Download from the repository [https://github.com/CreativeBulma/bulma-badge/tree/
 Badges are displayed into a container on top of the element. All you have to do is to add a container with the `badge` class and with the text you want to display as value.
 
 
-{{% notification warning %}}<strong>Caution:</strong> Element including badge must have `display: relative` CSS rule to get it work.{{% /notification %}}
+{{% notification warning %}}<strong>Caution:</strong> Element including badge must have `position: relative` CSS rule to get it work.{{% /notification %}}
 
 ### Styles
 #### Default
