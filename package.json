@@ -3,11 +3,6 @@
 	"description": "Display a badge attached to any kind of element, in different position.",
 	"version": "1.0.1",
 	"homepage": "https://github.com/CreativeBulma/bulma-badge",
-	"author": {
-		"name": "Gaetan",
-		"email": "support@creativebulma.net",
-		"url": "https://creativebulma.net"
-	},
 	"main": "./src/sass/index.sass",
 	"style": "./dist/bulma-badge.css",
 	"sass": "./src/sass/index.sass",
