@@ -20,7 +20,7 @@ npm i -D @creativebulma/bulma-badge
 Full installation steps can be found here: [installation steps](https://bulma-badge.netlify.app/get-started)
 
 ## Documentation & Demo
-Full documentation and demo are available [here](https://bulma-badge.netlify.app/get-started)
+Full documentation and demo are available [here](bulma-badge.netlify.app/get-started)
 
 ## About the project
 BulmaBadge is © 2020 by [CreativeBulma](https://github.com/CreativeBulma).
